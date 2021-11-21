@@ -21,3 +21,14 @@ print("How about some more.")
 print("Is it greater? ", 5>-2)
 print("Is it greater or equal? ", 5>=-2)
 print("Is it less or equal? ", 5<=-2)
+
+
+# 4000元本金,复利1.01,22个交易日后总金额是多少？
+msg = 4000 * 1.01 ** 22
+print(msg)
+print(int(msg))
+
+print('4000元本金，复利1.01，22个交易日后总金额是多少？', 4000*1.01**22)
+
+print('3000元本金，复利1.01， 22个交易日后总金额是多少？', 3000*1.01**22)
+print('3000元本金，复利1.01， 22个交易日后总金额是多少？', int(3000*1.01**22))
